@@ -28,6 +28,14 @@
             width: 20%;
             background-color: rgb(255, 255, 255);
         }
+        #todoList li {
+    display: flex;
+    gap: 15px; 
+text-decoration: wavy;}
+input::placeholder{
+    opacity: 1;
+    color: black;
+}
   
     </style>
 </head>
@@ -39,6 +47,7 @@
       <input type="text" id="todoinput" placeholder="Add a new task">
       <button id="addBtn">Add</button>
     </div>
+        <ul id="todoList"></ul> 
         </div></div>
 </body>
 <script src="script.js"></script>
